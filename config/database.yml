@@ -23,7 +23,7 @@ default: &default
 
 development:
   <<: *default
-  host: ''
+  host: 192.168.56.1
   database: contact_list_development
   username: postgres
   password: 123
